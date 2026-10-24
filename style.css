@@ -1,0 +1,397 @@
+/* ==========================================================================
+   Основні скидання та стилі сторінки
+   ========================================================================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ABE4CB;
+  font-family: 'Inter', sans-serif;
+  color: #111827;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-bottom: 90px;
+}
+
+/* ==========================================================================
+   1. Секція рекламного банера (Карусель Bootstrap)
+   ========================================================================== */
+.hero-banner-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-item {
+  height: 330px;
+  background-color: #FFCC00;
+  background-image: radial-gradient(circle at 30% 40%, rgba(255,255,255,0.4) 0%, transparent 60%);
+}
+
+.banner-content {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  opacity: 0.9;
+}
+
+.custom-arrow {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  color: #111827;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0 4px;
+}
+
+.carousel-indicators .active {
+  background-color: #111827;
+}
+
+/* Колаж техніки та кота */
+.banner-collage {
+  position: relative;
+  width: 550px;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.appliance-group {
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+.appliance {
+  filter: drop-shadow(0 10px 15px rgba(0,0,0,0.15));
+}
+.appliance.fridge { width: 90px; transform: rotate(-5deg); }
+.appliance.microwave { width: 110px; transform: translateY(-10px); }
+.appliance.kettle { width: 80px; transform: translateY(-20px); }
+.appliance.washer { width: 100px; transform: rotate(3deg); }
+
+.cat-wrapper {
+  position: absolute;
+  bottom: -5px;
+  left: 140px;
+  width: 220px;
+}
+.cat-svg {
+  width: 100%;
+  height: auto;
+}
+
+/* Текстовий блок акції */
+.banner-text-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+.promo-headline {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 0.95;
+  color: #FFFFFF;
+  text-align: right;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+  letter-spacing: -1px;
+}
+
+.shop-badge {
+  background: #FFFFFF;
+  padding: 6px 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.shop-badge span {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #111827;
+}
+
+.discount-badge {
+  display: flex;
+  align-items: baseline;
+  background: #FF5500;
+  color: #FFFFFF;
+  padding: 4px 24px;
+  border-radius: 40px;
+  margin-top: 12px;
+  box-shadow: 0 6px 15px rgba(255, 85, 0, 0.4);
+}
+
+.discount-prefix {
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: 8px;
+}
+
+.discount-value {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 58px;
+  line-height: 1;
+}
+
+/* ==========================================================================
+   2. Секція привітання та логотипу
+   ========================================================================== */
+.welcome-section {
+  width: 100%;
+  max-width: 1440px;
+  background-color: #ABE4CB;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.logo-wrapper {
+  width: 240px;
+  height: 240px;
+  flex-shrink: 0;
+}
+
+.brand-logo {
+  width: 100%;
+  height: 100%;
+}
+
+.welcome-card {
+  background-color: #8CDEB5;
+  padding: 30px 50px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-grow: 1;
+  max-width: 750px;
+}
+
+.welcome-subtitle {
+  font-family: 'Instrument Serif', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.welcome-title {
+  font-family: 'Island Moments', cursive;
+  font-size: 72px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.order-btn {
+  background-color: #8CDEB5;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 8px 30px;
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.2s ease;
+}
+
+.order-btn:hover {
+  background-color: #79d4a6;
+}
+
+/* ==========================================================================
+   3. Блок товарних карток
+   ========================================================================== */
+.products-section {
+  width: 100%;
+  max-width: 1440px;
+  padding: 20px 20px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.products-grid {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 320px;
+  background-color: #8CDEB5;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.product-image-box {
+  width: 296px;
+  height: 280px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.product-svg {
+  width: 100%;
+  height: 100%;
+  max-height: 240px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 4px;
+}
+
+.product-meta {
+  font-size: 15px;
+  color: #4B5563;
+  margin-bottom: 2px;
+}
+
+.product-meta span {
+  color: #374151;
+}
+
+.product-desc {
+  font-size: 15px;
+  color: #4B5563;
+  margin-top: 6px;
+  line-height: 1.3;
+}
+
+.add-to-cart-btn {
+  width: 100%;
+  height: 40px;
+  background-color: #111827;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: auto;
+  transition: background-color 0.2s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #1F2937;
+}
+
+/* ==========================================================================
+   4. Нижня панель навігації (Bottom Bar)
+   ========================================================================== */
+.bottom-bar {
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 40px);
+  max-width: 1400px;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 44px;
+  padding: 0 20px;
+  background-color: #111827;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.nav-btn:hover {
+  opacity: 0.9;
+}
+
+.support-btn {
+  flex-grow: 1;
+  max-width: 450px;
+  margin: 0 15px;
+  font-size: 13px;
+  text-align: center;
+}
