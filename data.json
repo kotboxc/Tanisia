@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "image": "https://content2.rozetka.com.ua/goods/images/big/661897703.png",
+        "title": "Пральна машина",
+        "maker": "Asko",
+        "price": 50000,
+        "guarantee": 2,
+        "availability": true,
+        "description": "Для щоденного прання та догляду за одягом"
+    },
+    {
+        "id": 2,
+        "image": "https://content1.rozetka.com.ua/goods/images/big/524501548.jpg",
+        "title": "Електрочайник",
+        "maker": "Tefal",
+        "price": 3000,
+        "guarantee": 2,
+        "availability": true,
+        "description": "Для приготування гарячих напоїв удома"
+    },
+    {
+        "id": 3,
+        "image": "https://content2.rozetka.com.ua/goods/images/big/690031478.webp",
+        "title": "Генератор",
+        "maker": "Honda",
+        "price": 64000,
+        "guarantee": 1,
+        "availability": false,
+        "description": "Для резервного живлення за відсутності електрики"
+    },
+    {
+        "id": 4,
+        "image": "https://algo.ua/image/cache/catalog/image/cache/catalog/product_image/3Krupnobytovaya-tehnika/5holodilniki-solo/Samsung/RT47CG6442S9UA/RT47CG6442S9UA-01-600x600.webp",
+        "title": "Холодильник",
+        "maker": "Samsung",
+        "price": 25000,
+        "guarantee": 2,
+        "availability": true,
+        "description": "Для зберігання продуктів та напоїв"
+    },
+    {
+        "id": 5,
+        "image": "https://files.foxtrot.com.ua/PhotoNew/img_0_105_3210_0_1_YC4x5D.webp",
+        "title": "Пилосос",
+        "maker": "Bosch",
+        "price": 8000,
+        "guarantee": 2,
+        "availability": true,
+        "description": "Для прибирання пилу та бруду"
+    },
+    {
+        "id": 6,
+        "image": "https://hotline.ua/img/tx/109/10973265.jpg",
+        "title": "Мікрохвильова піч",
+        "maker": "LG",
+        "price": 6000,
+        "guarantee": 2,
+        "availability": true,
+        "description": "Для розігрівання та приготування їжі"
+    },
+    {
+        "id": 7,
+        "image": "https://content.rozetka.com.ua/goods/images/big/652395540.jpg",
+        "title": "Праска",
+        "maker": "Philips",
+        "price": 2500,
+        "guarantee": 2,
+        "availability": true,
+        "description": "Для прасування одягу та тканин"
+    },
+    {
+        "id": 8,
+        "image": "https://content1.rozetka.com.ua/goods/images/big/231008740.jpg",
+        "title": "Блендер",
+        "maker": "Braun",
+        "price": 1800,
+        "guarantee": 1,
+        "availability": true,
+        "description": "Для подрібнення та змішування продуктів"
+    },
+    {
+        "id": 9,
+        "image": "https://cdn.comfy.ua/media/catalog/product/cache/5/image/600x/9df78eab33525d08d6e5fb8d27136e95/m/c/mc6mbk_001.jpg",
+        "title": "Мультиварка",
+        "maker": "Redmond",
+        "price": 3500,
+        "guarantee": 2,
+        "availability": false,
+        "description": "Для приготування різноманітних страв"
+    },
+    {
+        "id": 10,
+        "image": "https://content2.rozetka.com.ua/goods/images/big/514565451.jpg",
+        "title": "Кондиціонер",
+        "maker": "Gree",
+        "price": 18000,
+        "guarantee": 2,
+        "availability": true,
+        "description": "Для охолодження та обігріву приміщення"
+    }
+]
